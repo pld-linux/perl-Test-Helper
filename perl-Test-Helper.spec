@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Helper
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test-Helper perl module
 Summary(pl):	Modu³ perla Test-Helper
 Name:		perl-Test-Helper
 Version:	0.002
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Test-Helper perl module - easy creation of test scripts.
 Modu³ perla Test-Helper umo¿liwia ³atwe tworzenie skryptów testowych.
 
 %prep
-%setup -q -n Test-Helper-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL

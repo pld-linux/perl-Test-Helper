@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Helper
-Summary:	Test::Helper perl module
-Summary(pl):	Modu³ perla Test::Helper
+Summary:	Test::Helper - easy creation of test scripts
+Summary(pl):	Test::Helper - ³atwe tworzenie skryptów testowych
 Name:		perl-Test-Helper
 Version:	0.002
-Release:	9
-License:	GPL
+Release:	10
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5a08c6c7e790b72f6635e8db4c43c7b7
@@ -16,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Test::Helper perl module - easy creation of test scripts.
+Test::Helper Perl module is for easy creation of test scripts.
 
 %description -l pl
-Modu³ perla Test::Helper umo¿liwia ³atwe tworzenie skryptów testowych.
+Modu³ Perla Test::Helper umo¿liwia ³atwe tworzenie skryptów testowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

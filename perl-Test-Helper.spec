@@ -5,7 +5,7 @@ Summary:	Test::Helper perl module
 Summary(pl):	Modu³ perla Test::Helper
 Name:		perl-Test-Helper
 Version:	0.002
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

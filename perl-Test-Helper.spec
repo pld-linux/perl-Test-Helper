@@ -24,7 +24,7 @@ Modu³ perla Test::Helper umo¿liwia ³atwe tworzenie skryptów testowych.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install

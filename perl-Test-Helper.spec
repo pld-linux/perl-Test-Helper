@@ -3,7 +3,7 @@ Summary:	Test-Helper perl module
 Summary(pl):	Modu³ perla Test-Helper
 Name:		perl-Test-Helper
 Version:	0.002
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl

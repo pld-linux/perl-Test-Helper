@@ -26,7 +26,7 @@ Modu³ perla Test::Helper umo¿liwia ³atwe tworzenie skryptów testowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

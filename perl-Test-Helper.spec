@@ -25,7 +25,7 @@ Modu³ perla Test-Helper umo¿liwia ³atwe tworzenie skryptów testowych.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT

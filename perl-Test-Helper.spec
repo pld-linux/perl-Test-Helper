@@ -5,7 +5,7 @@ Summary:	Test::Helper - easy creation of test scripts
 Summary(pl):	Test::Helper - ³atwe tworzenie skryptów testowych
 Name:		perl-Test-Helper
 Version:	0.002
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

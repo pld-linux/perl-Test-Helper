@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Helper
-Summary:	Test-Helper perl module
-Summary(pl):	Modu³ perla Test-Helper
+Summary:	Test::Helper perl module
+Summary(pl):	Modu³ perla Test::Helper
 Name:		perl-Test-Helper
 Version:	0.002
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Test-Helper perl module - easy creation of test scripts.
+Test::Helper perl module - easy creation of test scripts.
 
 %description -l pl
-Modu³ perla Test-Helper umo¿liwia ³atwe tworzenie skryptów testowych.
+Modu³ perla Test::Helper umo¿liwia ³atwe tworzenie skryptów testowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

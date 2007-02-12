@@ -2,7 +2,7 @@
 %define		pdir	Test
 %define		pnam	Helper
 Summary:	Test::Helper - easy creation of test scripts
-Summary(pl):	Test::Helper - ≥atwe tworzenie skryptÛw testowych
+Summary(pl.UTF-8):   Test::Helper - ≈Çatwe tworzenie skrypt√≥w testowych
 Name:		perl-Test-Helper
 Version:	0.002
 Release:	11
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Test::Helper Perl module is for easy creation of test scripts.
 
-%description -l pl
-Modu≥ Perla Test::Helper umoøliwia ≥atwe tworzenie skryptÛw testowych.
+%description -l pl.UTF-8
+Modu≈Ç Perla Test::Helper umo≈ºliwia ≈Çatwe tworzenie skrypt√≥w testowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

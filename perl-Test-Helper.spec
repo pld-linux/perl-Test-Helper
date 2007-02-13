@@ -2,7 +2,7 @@
 %define		pdir	Test
 %define		pnam	Helper
 Summary:	Test::Helper - easy creation of test scripts
-Summary(pl.UTF-8):   Test::Helper - łatwe tworzenie skryptów testowych
+Summary(pl.UTF-8):	Test::Helper - łatwe tworzenie skryptów testowych
 Name:		perl-Test-Helper
 Version:	0.002
 Release:	11

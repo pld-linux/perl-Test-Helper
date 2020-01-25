@@ -1,6 +1,5 @@
 %define		pdir	Test
 %define		pnam	Helper
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Helper - easy creation of test scripts
 Summary(pl.UTF-8):	Test::Helper - łatwe tworzenie skryptów testowych
 Name:		perl-Test-Helper
